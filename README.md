@@ -2,12 +2,7 @@
 
 
 # Demo
-Github Pages : [https://saurabhnemade.github.io/will-you-be-my-valentine/
-](https://uncreativeyash.github.io/Be-My-Grace/)
-
-# Description
-This is a fun project for valentines day to bring smile on face of your special person!!
-
+Github Pages : [Click Here](https://uncreativeyash.github.io/Be-My-Grace/)
 
 
 # How to start
@@ -16,10 +11,6 @@ npm install -g pnpm
 pnpm i
 pnpm run dev
 ```
-
-# Preview
-
-![image description](demo.gif)
 
 
 # How to deploy it
