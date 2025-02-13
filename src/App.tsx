@@ -34,11 +34,25 @@ export default function Page() {
   };
 
   return (
-    <div className="-mt-16 flex h-screen flex-col items-center justify-center">
+    <div className="-mt-16 flex h-screen flex-col items-center justify-center px-4">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="Kissing bears" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          {/* Responsive video container */}
+          <div className="w-full max-w-sm mx-auto">
+            <iframe
+              className="w-full h-[calc(100vh-100px)]"
+              src="https://player.vimeo.com/video/1056461704?h=d078516d4b&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              frameBorder="0"
+              allowFullScreen
+              title="My Love"
+            ></iframe>
+          </div>
+
+          {/* "I love you pookie!!" below video */}
+          <div className="mt-4 text-4xl font-bold text-center">
+            WOOOOOO!!! I love you pookie!! ;))
+          </div>
         </>
       ) : (
         <>
